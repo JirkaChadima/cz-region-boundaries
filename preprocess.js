@@ -30,8 +30,10 @@ for(var i = 0; i < data.features.length; i++) {
         var name = data.features[i].properties['name:cs'];
         result = "#," + name + "\n";
         var geometry = data.features[i].geometry;
-        for (var j = 0; j < geometry.coordinates[0].length; j++) {
-            result += geometry.coordinates[0][j][1] + "," + geometry.coordinates[0][j][0] + "\n";
+        for (var k = 0; k < geometry.coordinates.length; k++) {
+            for (var j = 0; j < geometry.coordinates[k].length; j++) {
+                result += geometry.coordinates[k][j][1] + "," + geometry.coordinates[k][j][0] + "\n";
+            }
         }
         resultAll += result;
         fs.writeFileSync("data/" + name + ".txt", result);
