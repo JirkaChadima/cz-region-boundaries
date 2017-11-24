@@ -22,3 +22,7 @@ Datová sada obsahuje pro každý kraj ČR seznam GPS souřadnic ohraničující
 Dá se s výhodou použít na párování bodů do krajů a jiné kratochvíle.
 
 Inspirace pro hledací algoritmy: http://erich.realtimerendering.com/ptinpoly/
+
+---
+
+<script src="https://embed.github.com/view/geojson/JirkaChadima/cz-region-boundaries/master/src.geojson"></script>
