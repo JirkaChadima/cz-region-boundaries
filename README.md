@@ -1,3 +1,12 @@
+# How to get current data
+1. Go to https://overpass-turbo.eu
+1. Run query `overpass-query.txt`
+1. Download data as `src.geojson`
+1. Run `node preprocess.js`
+1. This will break if something happens to geojson format, region ids or any other part of the pipeline
+
+---
+
 # GPS boundaries of Czech republic (Czechia) regions
 
 Dataset contains GPS coordinates marking boundaries of each official region in Czech Republic.
@@ -17,4 +26,3 @@ Dá se s výhodou použít na párování bodů do krajů a jiné kratochvíle.
 Inspirace pro hledací algoritmy: http://erich.realtimerendering.com/ptinpoly/
 
 Zdroj dat: https://navigovat.mobilmania.cz/clanky/navod-pro-gsak-jak-rozdelit-ceske-geokese-podle-kraju/sc-265-a-1313623/default.aspx
-
