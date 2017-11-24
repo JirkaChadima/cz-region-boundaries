@@ -26,4 +26,4 @@ Inspirace pro hledací algoritmy: http://erich.realtimerendering.com/ptinpoly/
 ---
 
 
-Visualized source OSM data can be found [here](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/JirkaChadima/cz-region-boundaries/master/src.geojson").
+Visualized source OSM data can be found [here](https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/JirkaChadima/cz-region-boundaries/master/src.geojson).
