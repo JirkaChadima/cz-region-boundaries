@@ -1,16 +1,13 @@
+relation
+  ["boundary"="administrative"]
+  ["admin_level"="6"]
+  ["type"="boundary"]
+  ["source"="cuzk:ruian"]
 (
-  relation
-    ["boundary"="administrative"]
-    ["admin_level"="6"]
-    ["type"="boundary"]
-    ["source"="cuzk:ruian"]
-
-  (
-    49.0306652257167,
-    13.2440185546875,
-    50.537871814876496,
-    17.95166015625
-  )
+  49.0306652257167,
+  13.2440185546875,
+  50.537871814876496,
+  17.95166015625
 );
 /*added by auto repair*/
 (._;>;);
