@@ -5,7 +5,7 @@
 
 ---
 
-# GPS boundaries of Czech republic (Czechia) regions
+# GPS boundaries of Czechia regions
 
 My motivation was to have clear data that would allow me to map Czech ZIP codes to Czech regions.
 However multiple zip codes might span across multiple regions and we need a more precise matching.
@@ -21,7 +21,7 @@ You can use it to pair points to regions and other useful stuff.
 
 ---
 
-# GPS hranice krajů České republiky (ČR)
+# GPS hranice krajů Česka (ČR)
 
 Motivací bylo párování českých PSČ na české kraje. Nicméně několik PSČ se rozkládá přes víc krajů
 a je potřeba párování nějak zpřesnit. Na to se samozřejmě hodí detekce přítomnosti GPS bodu
