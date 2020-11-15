@@ -59,6 +59,7 @@
 19800,Hlavní město Praha
 19900,Hlavní město Praha
 25001,Praha-východ
+25061,Praha-východ
 25063,Mělník
 25063,Praha-východ
 25064,Praha-východ
@@ -377,6 +378,7 @@
 28144,Kolín
 28146,Kolín
 28151,Kolín
+28151,Nymburk
 28161,Kolín
 28162,Praha-východ
 28163,Kolín
@@ -421,7 +423,6 @@
 28573,Kutná Hora
 28574,Kutná Hora
 28575,Kutná Hora
-28576,Kutná Hora
 28601,Kutná Hora
 28802,Nymburk
 28901,Nymburk
@@ -1930,6 +1931,7 @@
 61900,Brno-město
 62000,Brno-město
 62100,Brno-město
+62100,Brno-venkov
 62300,Brno-město
 62400,Brno-město
 62500,Brno-město

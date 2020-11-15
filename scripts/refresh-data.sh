@@ -12,10 +12,11 @@ RESULT="../data/zip/zip-region.csv"
 wget "$PSCSOURCE" -O src.zip
 
 unzip -n "$ZIPFILE"
-libreoffice --headless --convert-to csv --infilter=csv:44,34,76 "$FILE.xlsx" --outdir . > /dev/null
+libreoffice --headless --convert-to csv --infilter=csv:44,34,76 "$FILE.xls" --outdir . > /dev/null
 cut -d, -f2,5 "$FILE.csv" | tail -n +2 | sort | uniq > "$PSCFILE"
 join -t ',' -1 2 -2 1 -o 1.1,2.2 <(sort -t ',' -k2,2 "$PSCFILE") <(sort -t ',' -k1,1 "$OKRESFILE") | sort | uniq > "$RESULT"
 rm "$ZIPFILE"
-rm "$FILE.xlsx"
-rm "$FILE.csv"
+rm -f "$FILE.xlsx"
+rm -f "$FILE.xls"
+rm -f "$FILE.csv"
 
