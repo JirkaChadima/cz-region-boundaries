@@ -5,7 +5,7 @@ node prepare-gps-data.js
 PSCSOURCE='https://www.ceskaposta.cz/documents/10180/3738087/xls_pcobc.zip/50617e56-6e9a-4335-9608-96fec214e6ef'
 OKRESFILE="../data/zip/county-region.csv"
 ZIPFILE="src.zip"
-FILE='xls_pcobc'
+FILE='xls_pcobc.dbf'
 PSCFILE="../data/zip/zip-county.csv"
 RESULT="../data/zip/zip-region.csv"
 
