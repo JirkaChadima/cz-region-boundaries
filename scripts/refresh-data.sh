@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -X POST 'https://lz4.overpass-api.de/api/interpreter' -d@overpass-query.overpassql | osmtogeojson > src.geojson
+curl -X POST 'https://overpass-api.de/api/interpreter' -d@overpass-query.overpassql | osmtogeojson > src.geojson
 node prepare-gps-data.js
 
 PSCSOURCE='https://www.ceskaposta.cz/documents/10180/3738087/xls_pcobc.zip/50617e56-6e9a-4335-9608-96fec214e6ef'
